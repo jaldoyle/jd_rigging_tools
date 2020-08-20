@@ -6,10 +6,10 @@ JD Rigging tools is a Blender add on to do simple rigging actions faster. While 
 there aren't many to assist creating your own custom rigs. I made this add on for that reason. With it you can easily make a bone matching the world axis with one click, 
 rig multiple objects at once each with their own controllers, add a custom object to multiple bones at once from a library object shapes and more!
 
-Compatable with Blender versions 2.8+. You can download blender <a href="https://www.blender.org/download/" target="_blank">here</a>.
+Compatible with Blender versions 2.8+. You can download blender [here](https://www.blender.org/download/).
 
-Some of the tools are very specific to my workflow when rigging in Blender. However, my workflow is primarilary based on Pierrick Picaut's tutorial course 
-<a href="https://gumroad.com/p2design#AeQfrF" target="_blank">"The art of effective rigging in Blender"</a>, so anyone who follows the workflow he teaches, should understand the bone heirarcies and naming conventions that the add on creates. I would like to make this add on useful to as many riggers and animators as possible, so if you have suggestions on how the add on could assist your workflow better, please let me know and I will try to implement it. I am still realativley new to Python, add on development and git hub especially, so please be patiant with me if it takes me some time to figure things out. If anyone has edit suggestions to the python files to make it more efficent it would be greatly appreciated.
+Some of the tools are very specific to my workflow when rigging in Blender. However, my workflow is primarily based on Pierrick Picaut's tutorial course 
+["The art of effective rigging in Blender"](https://gumroad.com/p2design#AeQfrF), so anyone who follows the workflow he teaches should understand the bone hierarchies and naming conventions that the add on creates. I would like to make this add on useful to as many riggers and animators as possible, so if you have suggestions on how the add on could assist your workflow better, please let me know and I will try to implement it. I am still relatively new to Python, add on development and git hub especially, so please be patient with me if it takes me some time to figure things out. If anyone has edit suggestions to the python files to make it more efficient it would be greatly appreciated.
 
 # Installation
 
