@@ -1,15 +1,15 @@
-![Header](https://github.com/jaldoyle/jd_rigging_tools/blob/master/images/YT_thumbnail_3.jpg)
+[![Header](https://github.com/jaldoyle/jd_rigging_tools/blob/master/images/YT_thumbnail_3.jpg)](https://youtu.be/9C9oDs0Qc3s)
 
 # Introduction
 
-JD Rigging tools is a Blender add on to do simple rigging actions faster. While Blender has some great auto rigging add ons, such as Rigify and [Auto-Rig Pro](https://blendermarket.com/products/auto-rig-pro?ref=2), 
-there aren't many to assist creating your own custom rigs. I made this add on for that reason. With it you can easily make a bone matching the world axis with one click, 
+JD Rigging tools is a Blender Addon to do simple rigging actions faster. While Blender has some great auto rigging Addons, such as Rigify and [Auto-Rig Pro](https://blendermarket.com/products/auto-rig-pro?ref=2), 
+there aren't many to assist creating your own custom rigs. I made this Addon for that reason. With it you can easily make a bone matching the world axis with one click, 
 rig multiple objects at once each with their own controllers, add a custom object to multiple bones at once from a library object shapes and more!
 
 Compatible with Blender versions 2.8+. You can download blender [here](https://www.blender.org/download/).
 
 Some of the tools are very specific to my workflow when rigging in Blender. However, my workflow is primarily based on Pierrick Picaut's tutorial course 
-["The art of effective rigging in Blender"](https://gumroad.com/p2design#AeQfrF), so anyone who follows the workflow he teaches should understand the bone hierarchies and naming conventions that the add on creates. I would like to make this add on useful to as many riggers and animators as possible, so if you have suggestions on how the add on could assist your workflow better, please let me know and I will try to implement it. I am still relatively new to Python, add on development and git hub especially, so please be patient with me if it takes me some time to figure things out. If anyone has edit suggestions to the python files to make it more efficient it would be greatly appreciated.
+["The art of effective rigging in Blender"](https://gumroad.com/p2design#AeQfrF), so anyone who follows the workflow he teaches should understand the bone hierarchies and naming conventions that the Addon creates. I would like to make this Addon useful to as many riggers and animators as possible, so if you have suggestions on how the Addon could assist your workflow better, please let me know and I will try to implement it. I am still relatively new to Python, Addon development and git hub especially, so please be patient with me if it takes me some time to figure things out. If anyone has edit suggestions to the python files to make it more efficient it would be greatly appreciated.
 
 # Installation
 
