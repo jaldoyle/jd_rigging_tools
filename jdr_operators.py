@@ -637,13 +637,14 @@ def add_vertex_group(context, object_name, group_name):
     bpy.ops.object.select_all(action="DESELECT")
 
 
-def create_mch_bone(self, context, parent_bone, child_name, arm_obj):
+def create_mch_bone(self, context, child_name, arm, arm_obj):
     unit_scale = bpy.data.scenes['Scene'].unit_settings.scale_length
     mch_name = rename_to_mch(child_name)
+    child_bone = arm.edit_bones[child_name]
 
     mchbone = new_edit_bone(arm_obj, mch_name, context)
 
-    mchbone.head = parent_bone.tail
+    mchbone.head = child_bone.head
     mchbone.tail = mchbone.head
     if round(unit_scale, 2) == 0.01:
         mchbone.tail.y += 10
@@ -972,16 +973,15 @@ class JDRIGGING_OT_add_mch_con(JDRiggingOperator, Operator):
         mch_intbones = []
 
         parent_name = arm.edit_bones.active.name
-        parent_bone = arm.edit_bones[parent_name]
 
         bone_list.remove(parent_name)
         child_bones = bone_list
 
         # Create MCH bones
         for child_name in child_bones:
-            mchbone = create_mch_bone(self, context, parent_bone, child_name, arm_obj)
+            mchbone = create_mch_bone(self, context, child_name, arm, arm_obj)
             mchbones.append(mchbone.name)
-
+            
         # Create MCH_INT bones
         for mch_name in mchbones:
             mch_int_name = rename_to_mch_int(name=mch_name)
