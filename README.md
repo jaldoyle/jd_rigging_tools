@@ -4,7 +4,7 @@
 
 JD Rigging tools is a Blender Addon to do simple rigging actions faster. While Blender has some great auto rigging Addons, such as Rigify and [Auto-Rig Pro](https://blendermarket.com/products/auto-rig-pro?ref=2), 
 there aren't many to assist creating your own custom rigs. I made this Addon for that reason. With it you can easily make a bone matching the world axis with one click, 
-rig multiple objects at once each with their own controllers, add a custom object to multiple bones at once from a library object shapes and more!
+rig multiple objects at once each with their own controllers, add a custom object to multiple bones at once from a library of object shapes and more!
 
 Compatible with Blender versions 2.8+. You can download blender [here](https://www.blender.org/download/).
 
